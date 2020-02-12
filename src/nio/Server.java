@@ -42,19 +42,6 @@ public class Server {
     private String sendText = null;
 
     public Server(int port) throws IOException {
-
-        /**
-         * 以下的所有说明均已linux系统底层进行说明：
-         *      nio 的底层实现是 epoll 模式，采用多路复用技术，对nio的代码进行深入分析，结合epoll的底层实现
-         * 进行详细的说明
-         *      1.linux网络编程是两个进程之间的通信，跨集群合网络
-         *      2.开启一个socket线程，在linux系统上任何操作均以文件句柄数表示，默认情况下
-         *        一个线程可以打开1024个句柄，也就说最多同时支持1024个网络连接请求。阿里云默认打开65535个文件
-         *        句柄，通常情况下，1G内存最多可以打开10w个句柄数
-         *
-         *
-         */
-
         // 打开服务器套接字通道
         // 底层: 在linux上面开启socket服务，启动一个线程。绑定ip地址和端口号
         ServerSocketChannel serverSocketChannel = ServerSocketChannel.open();
