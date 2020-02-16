@@ -7,8 +7,12 @@ import java.nio.channels.SelectionKey;
 import java.nio.channels.Selector;
 import java.nio.channels.SocketChannel;
 import java.util.Iterator;
+import java.util.Scanner;
 import java.util.Set;
 
+/**
+ * @author BuyWatermelon
+ */
 public class Client00 {
 
     private static int flag = 0;
@@ -114,14 +118,14 @@ public class Client00 {
     private static String clientOperation(){
         System.out.println("请输入您的操作：A；领养小狗  B：领养小猫  C：领养鹦鹉  D：领养小鸡  E:查看宠物受欢迎程度");
 
-        String chars = "ABCDE";
+        String chars = "AB";
 
-        String randomOperation = String.valueOf(chars.charAt((int) (Math.random() * 5)));
+        String randomOperation = String.valueOf(chars.charAt((int) (Math.random() * 2)));
         System.out.println(randomOperation);
 
         return randomOperation;
 
-        /*//控制台输入
+/*        //控制台输入
         Scanner scan = new Scanner(System.in);
         return scan.nextLine();*/
     }

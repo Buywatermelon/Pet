@@ -7,12 +7,14 @@ import java.nio.channels.SelectionKey;
 import java.nio.channels.Selector;
 import java.nio.channels.SocketChannel;
 import java.util.Iterator;
+import java.util.Scanner;
 import java.util.Set;
 
 /**
+ *
  * @author BuyWatermelon
  */
-public class Client {
+public class Client0 {
 
     private static int flag = 0;
 
@@ -25,7 +27,8 @@ public class Client {
     private final static InetSocketAddress SERVER_ADDRESS = new InetSocketAddress(
             "localhost", 8888);
 
-    public static void startClien() throws IOException {
+    public static void main(String[] args) throws IOException {
+
         SocketChannel socketChannel = SocketChannel.open();
 
         socketChannel.configureBlocking(false);
@@ -111,10 +114,9 @@ public class Client {
 
     /**
      * 客户端操作
-     *
      * @return
      */
-    private static String clientOperation() {
+    private static String clientOperation(){
         System.out.println("请输入您的操作：A；领养小狗  B：领养小猫  C：领养鹦鹉  D：领养小鸡  E:查看宠物受欢迎程度");
 
         String chars = "ABCDE";
@@ -127,12 +129,5 @@ public class Client {
 /*        //控制台输入
         Scanner scan = new Scanner(System.in);
         return scan.nextLine();*/
-    }
-
-    public static void main(String[] args) throws IOException {
-
-        for (int i = 0; i < 100; i++) {
-            Client.startClien();
-        }
     }
 }
