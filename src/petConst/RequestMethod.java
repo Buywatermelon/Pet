@@ -1,4 +1,4 @@
-package adoption;
+package petConst;
 
 /**
  * @author BuyWatermelon

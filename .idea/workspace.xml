@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f2cd917b-8027-4001-908e-02dbb497353f" name="Default Changelist" comment="宠物领养问题">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pet.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adoption/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adoption/PetCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/petConst/PetCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adoption/PetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adoption/PetService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adoption/RandomEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/RandomEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adoption/RequestMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/petConst/RequestMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adoption/SocketClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adoption/SocketClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adoption/SocketServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adoption/SocketServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/QuickSort.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\Users\15051\OneDrive\code\tool\maven\maven-repository" />
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="userSettingsFile" value="C:\Users\15051\OneDrive\code\tool\maven\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Xgb7fUnKvRwPNZKRqfMveiO7Yv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="adoption" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="observerDemo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SocketClient3">
+    <configuration name="SocketClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adoption.SocketClient" />
+      <module name="Pet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="petConst.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SocketClient0" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adoption.SocketClient0" />
+      <module name="Pet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="petConst.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SocketClient1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adoption.SocketClient1" />
+      <module name="Pet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="adoption.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SocketClient2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adoption.SocketClient2" />
+      <module name="Pet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="adoption.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SocketClient3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="adoption.SocketClient3" />
+      <module name="Pet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="adoption.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SocketClient0" />
+        <item itemvalue="Application.SocketClient3" />
+        <item itemvalue="Application.SocketClient2" />
+        <item itemvalue="Application.SocketClient1" />
+        <item itemvalue="Application.SocketClient" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f2cd917b-8027-4001-908e-02dbb497353f" name="Default Changelist" comment="" />
+      <created>1581470518957</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581470518957</updated>
+      <workItem from="1581470521394" duration="11135000" />
+      <workItem from="1581482749871" duration="1772000" />
+      <workItem from="1581519616604" duration="92000" />
+      <workItem from="1581740246550" duration="31355000" />
+      <workItem from="1581786420459" duration="2088000" />
+      <workItem from="1581824900947" duration="23920000" />
+      <workItem from="1581944271416" duration="6342000" />
+      <workItem from="1582091300094" duration="289000" />
+      <workItem from="1582107795201" duration="12905000" />
+      <workItem from="1582251536752" duration="13063000" />
+      <workItem from="1582366010706" duration="18870000" />
+      <workItem from="1582420679234" duration="16633000" />
+    </task>
+    <task id="LOCAL-00001" summary="nio版本初步">
+      <created>1581482963602</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581482963602</updated>
+    </task>
+    <task id="LOCAL-00002" summary="server修改">
+      <created>1581483069007</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581483069007</updated>
+    </task>
+    <task id="LOCAL-00003" summary="去除一些注释">
+      <created>1581483549743</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1581483549743</updated>
+    </task>
+    <task id="LOCAL-00004" summary="宠物领养问题">
+      <created>1581852833227</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1581852833227</updated>
+    </task>
+    <task id="LOCAL-00005" summary="宠物领养问题：版本1.3 叶李新">
+      <created>1582444235815</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1582444235815</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="nio版本初步" />
+    <MESSAGE value="server修改" />
+    <MESSAGE value="去除一些注释" />
+    <MESSAGE value="宠物领养问题" />
+    <MESSAGE value="宠物领养问题：版本1.3 叶李新" />
+    <option name="LAST_COMMIT_MESSAGE" value="宠物领养问题：版本1.3 叶李新" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="241" y="364" key="#Auto_Import" timestamp="1581776962628">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state x="241" y="364" key="#Auto_Import/0.0.2560.1409@0.0.2560.1409" timestamp="1581776962628" />
+    <state x="873" y="364" key="#Inspections" timestamp="1581780609394">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state x="873" y="364" key="#Inspections/0.0.2560.1409@0.0.2560.1409" timestamp="1581780609394" />
+    <state x="95" y="364" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581852587827">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state x="95" y="364" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1409@0.0.2560.1409" timestamp="1581852587827" />
+    <state x="1459" y="415" key="#com.intellij.ide.util.MemberChooser" timestamp="1582385703237">
+      <screen x="0" y="0" width="3440" height="1410" />
+    </state>
+    <state x="1086" y="415" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1409@0.0.2560.1409" timestamp="1581945080471" />
+    <state x="1459" y="415" key="#com.intellij.ide.util.MemberChooser/0.0.3440.1410@0.0.3440.1410" timestamp="1582385703237" />
+    <state x="425" y="590" width="431" height="239" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1581752289856">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state x="425" y="590" width="431" height="239" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.2560.1409@0.0.2560.1409" timestamp="1581752289856" />
+    <state x="425" y="611" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1581471089106">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state x="425" y="611" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.2560.1409@0.0.2560.1409" timestamp="1581471089106" />
+    <state x="328" y="165" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581764041807">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state x="328" y="165" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1409@0.0.2560.1409" timestamp="1581764041807" />
+    <state x="371" y="452" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581948843470">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state x="371" y="452" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1409@0.0.2560.1409" timestamp="1581948843470" />
+    <state x="396" y="408" key="#xdebugger.evaluate" timestamp="1581829951294">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state x="396" y="408" key="#xdebugger.evaluate/0.0.2560.1409@0.0.2560.1409" timestamp="1581829951294" />
+    <state x="717" y="300" key="CommitChangelistDialog2" timestamp="1582449940799">
+      <screen x="0" y="0" width="3440" height="1410" />
+    </state>
+    <state x="890" y="298" key="CommitChangelistDialog2/0.0.2560.1409@0.0.2560.1409" timestamp="1581852832164" />
+    <state x="717" y="300" key="CommitChangelistDialog2/0.0.3440.1410@0.0.3440.1410" timestamp="1582449940799" />
+    <state width="791" height="467" key="DebuggerActiveHint" timestamp="1582431180217">
+      <screen x="0" y="0" width="3440" height="1410" />
+    </state>
+    <state width="588" height="466" key="DebuggerActiveHint/0.0.2560.1409@0.0.2560.1409" timestamp="1582108949105" />
+    <state width="791" height="467" key="DebuggerActiveHint/0.0.3440.1410@0.0.3440.1410" timestamp="1582431180217" />
+    <state x="93" y="100" width="1093" height="1216" key="DiffContextDialog" timestamp="1581853927184">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state x="93" y="100" width="1093" height="1216" key="DiffContextDialog/0.0.2560.1409@0.0.2560.1409" timestamp="1581853927184" />
+    <state x="569" y="460" key="FileChooserDialogImpl" timestamp="1582091588427">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state x="569" y="460" key="FileChooserDialogImpl/0.0.2560.1409@0.0.2560.1409" timestamp="1582091588427" />
+    <state width="1688" height="465" key="GridCell.Tab.0.bottom" timestamp="1582446788919">
+      <screen x="0" y="0" width="3440" height="1410" />
+    </state>
+    <state width="2517" height="512" key="GridCell.Tab.0.bottom/0.0.2560.1409@0.0.2560.1409" timestamp="1582125099938" />
+    <state width="1688" height="465" key="GridCell.Tab.0.bottom/0.0.3440.1410@0.0.3440.1410" timestamp="1582446788919" />
+    <state width="1688" height="465" key="GridCell.Tab.0.center" timestamp="1582446788919">
+      <screen x="0" y="0" width="3440" height="1410" />
+    </state>
+    <state width="2517" height="512" key="GridCell.Tab.0.center/0.0.2560.1409@0.0.2560.1409" timestamp="1582125099938" />
+    <state width="1688" height="465" key="GridCell.Tab.0.center/0.0.3440.1410@0.0.3440.1410" timestamp="1582446788919" />
+    <state width="1688" height="465" key="GridCell.Tab.0.left" timestamp="1582446788919">
+      <screen x="0" y="0" width="3440" height="1410" />
+    </state>
+    <state width="2517" height="512" key="GridCell.Tab.0.left/0.0.2560.1409@0.0.2560.1409" timestamp="1582125099938" />
+    <state width="1688" height="465" key="GridCell.Tab.0.left/0.0.3440.1410@0.0.3440.1410" timestamp="1582446788919" />
+    <state width="1688" height="465" key="GridCell.Tab.0.right" timestamp="1582446788919">
+      <screen x="0" y="0" width="3440" height="1410" />
+    </state>
+    <state width="2517" height="512" key="GridCell.Tab.0.right/0.0.2560.1409@0.0.2560.1409" timestamp="1582125099938" />
+    <state width="1688" height="465" key="GridCell.Tab.0.right/0.0.3440.1410@0.0.3440.1410" timestamp="1582446788919" />
+    <state width="1688" height="465" key="GridCell.Tab.1.bottom" timestamp="1582446788920">
+      <screen x="0" y="0" width="3440" height="1410" />
+    </state>
+    <state width="2517" height="512" key="GridCell.Tab.1.bottom/0.0.2560.1409@0.0.2560.1409" timestamp="1582125099938" />
+    <state width="1688" height="465" key="GridCell.Tab.1.bottom/0.0.3440.1410@0.0.3440.1410" timestamp="1582446788920" />
+    <state width="1688" height="465" key="GridCell.Tab.1.center" timestamp="1582446788919">
+      <screen x="0" y="0" width="3440" height="1410" />
+    </state>
+    <state width="2517" height="512" key="GridCell.Tab.1.center/0.0.2560.1409@0.0.2560.1409" timestamp="1582125099938" />
+    <state width="1688" height="465" key="GridCell.Tab.1.center/0.0.3440.1410@0.0.3440.1410" timestamp="1582446788919" />
+    <state width="1688" height="465" key="GridCell.Tab.1.left" timestamp="1582446788919">
+      <screen x="0" y="0" width="3440" height="1410" />
+    </state>
+    <state width="2517" height="512" key="GridCell.Tab.1.left/0.0.2560.1409@0.0.2560.1409" timestamp="1582125099938" />
+    <state width="1688" height="465" key="GridCell.Tab.1.left/0.0.3440.1410@0.0.3440.1410" timestamp="1582446788919" />
+    <state width="1688" height="465" key="GridCell.Tab.1.right" timestamp="1582446788920">
+      <screen x="0" y="0" width="3440" height="1410" />
+    </state>
+    <state width="2517" height="512" key="GridCell.Tab.1.right/0.0.2560.1409@0.0.2560.1409" timestamp="1582125099938" />
+    <state width="1688" height="465" key="GridCell.Tab.1.right/0.0.3440.1410@0.0.3440.1410" timestamp="1582446788920" />
+    <state x="1173" y="439" key="Vcs.Push.Dialog.v2" timestamp="1582444242898">
+      <screen x="0" y="0" width="3440" height="1410" />
+    </state>
+    <state x="873" y="439" key="Vcs.Push.Dialog.v2/0.0.2560.1409@0.0.2560.1409" timestamp="1581852845743" />
+    <state x="1173" y="439" key="Vcs.Push.Dialog.v2/0.0.3440.1410@0.0.3440.1410" timestamp="1582444242898" />
+    <state x="412" y="408" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1581852727936">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state x="412" y="408" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.2560.1409@0.0.2560.1409" timestamp="1581852727936" />
+    <state x="835" y="442" width="891" height="604" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1581851028173">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state x="835" y="442" width="891" height="604" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.2560.1409@0.0.2560.1409" timestamp="1581851028173" />
+    <state x="1713" y="0" width="1734" height="1417" key="dock-window-1" timestamp="1582420937166">
+      <screen x="0" y="0" width="3440" height="1410" />
+    </state>
+    <state x="1557" y="0" width="1009" height="1416" key="dock-window-1/0.0.2560.1409@0.0.2560.1409" timestamp="1581945128162" />
+    <state x="1713" y="0" width="1734" height="1417" key="dock-window-1/0.0.3440.1410@0.0.3440.1410" timestamp="1582420937166" />
+    <state x="1557" y="0" width="1009" height="1416" key="dock-window-2" timestamp="1582091354737">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state x="1557" y="0" width="1009" height="1416" key="dock-window-2/0.0.2560.1409@0.0.2560.1409" timestamp="1582091354737" />
+    <state x="114" y="319" key="new project wizard" timestamp="1582091482743">
+      <screen x="0" y="0" width="2560" height="1409" />
+    </state>
+    <state x="114" y="319" key="new project wizard/0.0.2560.1409@0.0.2560.1409" timestamp="1582091482743" />
+    <state x="1267" y="317" width="903" height="679" key="search.everywhere.popup" timestamp="1582432931966">
+      <screen x="0" y="0" width="3440" height="1410" />
+    </state>
+    <state x="943" y="317" width="672" height="678" key="search.everywhere.popup/0.0.2560.1409@0.0.2560.1409" timestamp="1581834803385" />
+    <state x="1267" y="317" width="903" height="679" key="search.everywhere.popup/0.0.3440.1410@0.0.3440.1410" timestamp="1582432931966" />
+  </component>
+</project>

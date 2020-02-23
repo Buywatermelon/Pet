@@ -1,4 +1,4 @@
-package adoption;
+package entity;
 
 /**
  * @author BuyWatermelon

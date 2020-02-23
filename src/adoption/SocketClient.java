@@ -1,5 +1,7 @@
 package adoption;
 
+import petConst.PetCategory;
+import util.RandomEnum;
 import java.io.*;
 import java.net.Socket;
 import java.util.concurrent.Executors;
@@ -11,8 +13,7 @@ import java.util.concurrent.TimeUnit;
  */
 public class SocketClient {
 
-    private static final RandomEnum<PetCategory> random =
-            new RandomEnum<>(PetCategory.class);
+    private static final RandomEnum<PetCategory> random = new RandomEnum<>(PetCategory.class);
 
     public static void main(String[] args) {
 
@@ -23,6 +24,7 @@ public class SocketClient {
                 Socket client = new Socket("127.0.0.1", 8080);
                 String request = "GET " + random.random();
                 System.out.println(request);
+
                 client.getOutputStream().write(request.getBytes("UTF-8"));
                 client.shutdownOutput();
 
@@ -40,6 +42,6 @@ public class SocketClient {
                 e.printStackTrace();
             }
         };
-        executor.scheduleAtFixedRate(runnable, 0, 1, TimeUnit.SECONDS);
+        executor.scheduleAtFixedRate(runnable, 0, 200, TimeUnit.MILLISECONDS);
     }
 }

@@ -1,6 +1,7 @@
 package adoption;
 
-import sort.QuickSort;
+import entity.Pet;
+import util.QuickSort;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
@@ -19,7 +20,6 @@ public class PetService {
         new Pet(category);
         categoryTotal.computeIfPresent(category, (k,v) -> new AtomicInteger(v.incrementAndGet()));
         categoryTotal.computeIfAbsent(category, k -> new AtomicInteger(1));
-        System.out.println(categoryTotal.values());
         return "OK";
     }
 

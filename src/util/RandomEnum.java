@@ -1,7 +1,10 @@
-package adoption;
+package util;
 
 import java.util.Random;
 
+/**
+ * @author BuyWatermelon
+ */
 public class RandomEnum<E extends Enum<E>> {
 
     private static final Random RND = new Random();

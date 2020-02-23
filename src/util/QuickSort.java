@@ -1,4 +1,4 @@
-package sort;
+package util;
 
 /**
  * @author BuyWatermelon
